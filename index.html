@@ -2,21 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>book_sta</title>
+    <title>Feng Qian</title>
 
     <script src="static/jquery/jquery-3.1.1.min.js"></script>
 
     <link rel="stylesheet" href="static/css/bootstrap-3.3.7-dist/css/bootstrap.min.css" type="text/css">
+
+    <style>
+
+    td { 
+    padding: 10px;}
+
+
+div {
+  border:1px solid black;
+  margin-top:5px;
+  padding:5px;
+  }
+
+  table td, table td * {
+    vertical-align: top;
+}   
+
+h1 {
+	margin-top:0px;
+}
  
+    </style>
+
 </head>
 <body>
 
-<p id='this'>I'm Nick</p>
+<table style='margin:30px; width:90%; text-align:left' cellspacing="10" border="2">
+
+<tr>
+	<!-- picture -->
+	<td style='width: 15%'>
+	<img src="./pic/selfie.jpg" style="width:150px">
+	</td>
+	<!-- name, title, institute, brif into -->
+	<td style='width: 25%'>
+		<h1>Feng Qian</h1>
+		<p>Undergraduate of EECS of Peking University</p>
+		<p>Research assistant in Institute Key Laboratory of Computational Linguistics, Peking University</p>
+		<p>Research assistant in Institute of Network Computing and Information Systems, Peking University</p>
+		<p>Hi, I am Feng Qian, you can call me Nick. I am a undergraduate of EECS, Peking University. I am interested in application of machine learning in NLP and data mining.</p>
+	</td style='width: 60%'>
+	<!-- publications -->
+	<td rowspan="2">
+
+		<h1>Publications</h1>
+		<div>
+			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
+		</div>
+
+		<div>
+			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
+		</div>
+		<div>
+			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
+		</div>
+	</td>
+</tr>
+
+<tr>
+	<!-- email, places, BIO, CV, other links -->
+	<td>
+
+		<p>nickqian[AT]pku.edu.cn</p>
+		<p><a href="pic/fengqiancv.pdf">Feng Qian CV</a></p>
+		<p><a href="">About</a></p>
+	</td>
+	<!-- what to put here? -->
+	<td>
+	<h1>Academic Experiences</h1>
+
+	<p>UIUC</p>
+	<p>NLP</p>
+	<p>Distributed Representation</p>
+	<p>USC</p>
+	</td>
+</tr>
+</table>
+
 
 <script type="text/javascript">
-	
-alert('hello');
-$('#this').html('successfully use jQuery');
 
 </script>
 </body>
