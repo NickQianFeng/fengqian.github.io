@@ -11,11 +11,11 @@
     <style>
 
     td { 
-    padding: 10px;}
+    padding: 0px;}
 
 
 div {
-  border:1px solid black;
+  /*border:1px solid black;*/
   margin-top:5px;
   padding:5px;
   }
@@ -24,65 +24,123 @@ div {
     vertical-align: top;
 }   
 
+.blank{
+	border-top:1px solid black;
+	height:10px;
+}
+
 h1 {
 	margin-top:0px;
 }
+
+.left-space{
+	margin-left:40px;
+}
+
+
+
+.pub{
+	padding-bottom: 10px;
+	padding-left:10px;
+}
+
  
     </style>
+
 
 </head>
 <body>
 
-<table style='margin:30px; width:90%; text-align:left' cellspacing="10" border="2">
+<table style='margin:30px; width:90%; text-align:left;' cellspacing="10" border="2">
 
 <tr>
-	<!-- picture -->
-	<td style='width: 15%'>
-	<img src="./pic/selfie.jpg" style="width:150px">
-	</td>
-	<!-- name, title, institute, brif into -->
-	<td style='width: 25%'>
-		<h1>Feng Qian</h1>
-		<p>Undergraduate of EECS of Peking University</p>
-		<p>Research assistant in Institute Key Laboratory of Computational Linguistics, Peking University</p>
-		<p>Research assistant in Institute of Network Computing and Information Systems, Peking University</p>
-		<p>Hi, I am Feng Qian, you can call me Nick. I am a undergraduate of EECS, Peking University. I am interested in application of machine learning in NLP and data mining.</p>
-	</td style='width: 60%'>
-	<!-- publications -->
-	<td rowspan="2">
+<td style='width: 15%' class="pub">
+	<img src="./pic/selfie.jpg" style="width:150px;padding-top:10px">
+	<div></div>
+	<p>nickqian[AT]pku.edu.cn</p>
+	<p><h3><a href="pic/fengqiancv.pdf">CV</a></h3></p>
+	<p><h3><a href="">About</a></h3></p>
+</td>
 
-		<h1>Publications</h1>
-		<div>
-			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
-		</div>
+<td style='width: 75%' class="pub">
+	<h1 style="padding-top:10px">Feng Qian</h1>
+	<p>Undergraduate of EECS of Peking University</p>
+	<p>Research assistant in Institute Key Laboratory of Computational Linguistics, Peking University</p>
+	<p>Research assistant in Institute of Network Computing and Information Systems, Peking University</p>
+	<p>Hi, I am Feng Qian, you can call me Nick. I am a undergraduate of EECS, Peking University. I am interested in application of machine learning in NLP and data mining.</p>
+</td>
+</tr>
 
-		<div>
-			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
-		</div>
-		<div>
-			<h4>Syntax Aware LSTM Model For Chinese Semantic Role Labeing</h4>
-		</div>
+<tr>
+<td colspan="2">
+<h1 class="pub">Publications</h1>
+<table>
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Lei Sha, Luchen Liu, Baobao Chang, Ming Zhang. Syntax Aware LSTM Model for Semantic Role Labeling. Proceedings of the Conference on Empirical Methods in Natural Language Processing (EMNLP) Workshop – Structured Prediction for NLP (SP-NLP). 2017.
 	</td>
 </tr>
 
 <tr>
-	<!-- email, places, BIO, CV, other links -->
-	<td>
-
-		<p>nickqian[AT]pku.edu.cn</p>
-		<p><a href="pic/fengqiancv.pdf">Feng Qian CV</a></p>
-		<p><a href="">About</a></p>
-	</td>
-	<!-- what to put here? -->
-	<td>
-	<h1>Academic Experiences</h1>
-
-	<p>UIUC</p>
-	<p>NLP</p>
-	<p>Distributed Representation</p>
-	<p>USC</p>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Chengyue Gong, Luchen Liu, Lei Sha, Ming Zhang. Topic Medical Concept Embedding: Multi-Sense Representation Learning for Medical Concept. IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2017. Long paper. <b>(Acceptance Rate 10.4%)</b>
 	</td>
 </tr>
+	
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Lei Sha, Baobao Chang, Zhifang Sui. Jointly Extracting Event Triggers and Arguments by Dependency-Bridge RNN and Tensor-Based Argument Interaction.  Association for The Advancement of Artificial Intelligence (AAAI). 2018.
+
+	</td>
+</tr>
+	
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Chengyue Gong, Natali Ruchansky, Lei Sha, Ming Zhang, Yan Liu. Neural User Response Generator: Early Fake News Detection with Wisdom of the Crowd. Submitted to World Wide Web Conference (WWW). 2018.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Natali Ruchansky, Yan Liu. Fake News Detection Technology: A Survey. With more than 15 pages and 70 references included. Finished and to be submitted to relevant journal.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbsp<b>Feng Qian</b>, Natali Ruchansky, Prajwal Anad, Yan Liu. Dataset: Fake News Detection Dataset with Both Article Body and User Responses. Finished and submitted to World Wide Web Conference (WWW). 2018.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbspLei Sha, <b>Feng Qian</b>, Zhifang Sui, Baobao Chang. Will Repeated Reading Benefit Natural Language Understanding?  China Computer Federation (CCF) Conference on Natural Language Processing and Chinese Computing (NLPCC). 2017.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbspLei Sha, Xiaodong Zhang, <b>Feng Qian</b>, Baobao Chang, Zhifang Sui. A Multi-View Fusion Neural Network for Answer Selection. Association for The Advancement of Artificial Intelligence (AAAI). 2018.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbspLiye Xiao, <b>Feng Qian</b>, Wei Shao. Multi-step Wind Speed Forecasting Based on a Hybrid Forecasting Architecture and An Improved Bat Algorithm. Energy Conversion and Management (ECM, SCI-indexing). 2017.
+	</td>
+</tr>
+
+<tr>
+	<td class="pub">
+		<a href="">[paper]</a><a href="">[ppt]</a>&nbsp&nbspChengyue Gong, <b>Feng Qian</b>, Lei sha. Natural Language Generation from Multi-Relational Data. Finished and to be submitted to International Joint Conferences on Artificial Intelligence (IJCAI). 2018. 
+	</td>
+</tr>
+
+
+</table>
+</td>
+</tr>
+
 </table>
 
 
